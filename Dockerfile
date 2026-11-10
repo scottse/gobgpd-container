@@ -6,4 +6,4 @@ COPY ./gobgp /usr/bin
 
 COPY ./gobgpd /usr/bin
 
-ENTRYPOINT ["/usr/bin/gobgpd", "-f", "/etc/gobgpd.conf]
+ENTRYPOINT ["/usr/bin/gobgpd", "-f", "/etc/gobgpd.conf"]
